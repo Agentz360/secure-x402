@@ -1,6 +1,6 @@
 [project]
 name = "x402"
-version = "2.0.0"
+version = "2.1.0"
 description = "x402 Payment Protocol SDK for Python"
 readme = "README.md"
 license = { text = "MIT" }
@@ -47,8 +47,8 @@ svm = [
     "solana>=0.36.0",
 ]
 
-# MCP transport - Model Context Protocol SDK
-mcp = ["mcp>=1.26.0"]
+# MCP (Model Context Protocol) integration
+mcp = ["mcp>=1.0.0"]
 
 # Extensions - optional functionality
 extensions = ["jsonschema>=4.0.0"]
